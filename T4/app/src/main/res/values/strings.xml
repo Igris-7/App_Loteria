@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">T4</string>
+    <string name="lblTitulo">Lotería "La Gran Estafa"</string>
+    <string name="btnSalir">Salir</string>
+    <string name="btnNext">Continuar</string>
+    <string name="lblNumeros">Números del 1 al 40</string>
+    <string name="Num1">N° 1</string>
+    <string name="Num2">N° 2</string>
+    <string name="Num3">N° 3</string>
+    <string name="Num4">N° 4</string>
+    <string name="Num5">N° 5</string>
+    <string name="Num6">N° 6</string>
+    <string name="lblNumAzar">[ Presione para generar números al azar ]</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="lblDNI">Ingrese DNI</string>
+    <string name="lblRegistro">Registro de cliente</string>
+    <string name="lblNombre">Ingrese nombre</string>
+    <string name="lblDireccion">Ingrese dirección</string>
+    <string name="lblDistrito">Ingrese distrito</string>
+    <string name="btnAtras">Atrás</string>
+    <string name="lblIngreseNum">Digite sus números de la suerte</string>
+</resources>

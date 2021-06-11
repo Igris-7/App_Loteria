@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblTitulo"
+            android:textColor="#0B2161"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:text="@string/lblIngreseNum"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:text="@string/lblNumeros"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/txtNum1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/bordes"
+                android:gravity="center"
+                android:hint="@string/Num1"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtNum2"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:maxLength="2"
+                android:hint="@string/Num2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="@drawable/bordes" />
+
+            <EditText
+                android:id="@+id/txtNum3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bordes"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:gravity="center"
+                android:hint="@string/Num3"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textAlignment="center" />
+
+
+            <EditText
+                android:id="@+id/txtNum4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/bordes"
+                android:gravity="center"
+                android:hint="@string/Num4"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtNum5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/bordes"
+                android:gravity="center"
+                android:hint="@string/Num5"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtNum6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/bordes"
+                android:gravity="center"
+                android:hint="@string/Num6"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/NumAzar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:text="@string/lblNumAzar"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <EditText
+                android:id="@+id/txtDNI"
+                android:layout_marginLeft="15px"
+                android:layout_width="800px"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:maxLength="8"
+                android:hint="@string/lblDNI"
+                android:gravity="center_horizontal"
+                android:background="@android:color/transparent"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginRight="10dp"
+                android:textSize="16sp"
+                android:text="@string/btnNext">
+            </Button>
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:text="@string/btnSalir">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
